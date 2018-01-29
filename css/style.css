@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+body{
+	font-family: 'Roboto Slab', serif;
+}
+
+.container {margin:  0 auto;width:  950px;}
+header{
+
+background: #edeff1;
+
+overflow:  hidden;
+
+height: 80px;
+}
+
+.logo {width:  20%;float:  left;padding-top:  10px;}
+.logo img{}
+nav{
+    width:  80%;
+    float:  left;
+}
+nav ul{
+    text-align: right;
+    padding-top: 20px;
+}
+nav ul li{
+    list-style:  none;
+    display:  inline-block;
+    padding: 5px;
+}
+nav ul li a{
+    font-size:  18px;
+    color:  black;
+    text-decoration:  none;
+    padding:  5px;
+    transition: all .3s ease-out;
+}
+nav ul li a:hover{
+	
+background: #dd4b2b;
+	
+color:  white;
+	
+border: 1px solid #dd4b2b;
+	
+border-radius: 30px;
+}
+.banner-section {background-image:  url(../images/banner.jpg);background-repeat:  no-repeat;background-size:  cover;text-align:  center;color:  white;height: 1300px;overflow: hidden;position:  relative;}
+
+.banner-content {
+    padding-top:  380px;
+    padding-bottom: 115px;
+}
+.banner-content h1{font-size:  72px;font-weight: 400;}
+.banner-content h3{font-size:  30px;}
+.b-con {width:  33.33%;float:  left;}
+.b-con img{max-width:  100%;border: 6px solid #edeff1;border-radius: 74px;}
+.b-con h2{font-size:  30px;padding:  10px 0;}
+.b-con p{font-size:  15px;padding:  0 10px;}
+
+.button {position:  absolute;bottom: 13%;left:  50%;transform: translate(-50%, 13%);}
+.button a{text-decoration:  none;background: white;border:  1px solid white;border-radius:  30px;padding: 12px 36px;opacity: 0.9;color: rgba(0, 0, 0, 0.5);font-weight: 400;}
+
+.news-section {background: #edeff1;text-align:  center;overflow:  hidden;height: 630px;}
+
+.news-content {
+}
+.news-content h2{color: #31353e;font-size:  30px;padding:  50px 0;font-weight: 400;}
+
+.news {width:  33.33%;float:  left;padding:  10px;}
+.news img{max-width:  100%;}
+.news h3{font-size:  24px;padding: 15px 0 10px;}
+.news p{font-size:  15px;padding-bottom: 40px;}
+.n-button {
+}
+.n-button a{text-decoration:  none;background:  white;padding:  10px 30px;border-radius:  30px;color:  black;}
+.signup-section {height: 350px;background-image:  url(../images/signup.jpg);background-repeat:  no-repeat;background-size:  cover;color:  white;text-align:  center;position:  relative;}
+
+.signup-content {
+}
+.signup-content h2{font-size:  30px;padding:  80px 0 10px;font-weight:  400;}
+.signup-content p{font-size:  15px;padding-bottom:  50px;}
+form{
+
+width:  100%;
+}
+input[type="email"]{
+
+width: 35%;
+
+padding:  10px;
+
+border-radius:  30px;
+
+font-size:  20px;
+
+color:  white;
+
+border: 0;
+
+background: rgba(255, 255, 255, 0.5);
+}
+input[type="submit"]{
+	
+width: 10%;
+	
+padding: 10px;
+	
+border-radius: 30px;
+	
+font-size: 20px;
+	
+background:  white;
+	
+border:  0;
+	
+position:  absolute;
+	
+transform:  translateX(-35%);
+	
+animation-name: move;
+	
+animation-delay: 1s;
+	
+animation-duration: 1s;
+	
+animation-direction: alternate;
+	
+animation-iteration-count: infinite;
+	
+color: rgba(0, 0, 0, 0.5);
+}
+@keyframes move{
+	0%{transform:  translateX(-35%);}
+	100%{transform:  translateX(-40%);}
+}
+
+.signup-section2 {height: 1000px;padding: 20px 0;background:  #ffffff;overflow:  hidden;}
+
+.s {width:  50%;float:  left;}
+.s h2{font-size:  30px;padding: 90px 0 20px;}
+.s p{font-size:  15px;padding: 5px 0 40px;}
+.s img{width: 85%;padding:  30px;}
+.s-button {
+}
+.s-button a{text-decoration:  none;background: #dd4b2b;color:  white;border-radius:  30px;padding: 10px 40px;transition: all .5s ease;}
+.s-button a:hover{background:#4b4e73}
+.list-section {height:  400px;overflow:  hidden;background: #d75d0e;color:  white;text-align:  center;}
+
+.list {width:  33.33%;float:  left;padding: 90px 0;}
+.list ul{
+}
+.list li{list-style:  none;font-size:  18px;font-weight:  400;padding-bottom:  10px;}
+footer{
+
+height:  300px;
+
+background:  url(../images/footer.jpg);
+
+background-repeat:  no-repeat;
+
+background-size: cover;
+
+position:  relative;
+}
+.fcontent {font-size:  18px;color:  white;text-align:  center;padding:  90px;}
+.fcontent p{
+}
+.fcontent span{font-weight:  700;}
