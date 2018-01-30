@@ -53,7 +53,7 @@ border: 1px solid #dd4b2b;
 	
 border-radius: 30px;
 }
-.banner-section {background-image:  url(../images/banner.jpg);background-repeat:  no-repeat;background-size:  cover;text-align:  center;color:  white;height: 1300px;overflow: hidden;position:  relative;}
+.banner-section {background-image:  url(../images/banner.jpg);background-repeat:  no-repeat;background-size:  cover;text-align:  center;color:  white;height: 1300px;overflow: hidden;position:  relative;background-position:  center;}
 
 .banner-content {
     padding-top:  380px;
